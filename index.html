@@ -303,32 +303,32 @@ function postToGoogle() {
                 var field14 = $("#selectTextbook").val();
                 var field15 = $("#cost").val();
         
-        if(field1 == ""){
-          alert('Please Fill Your HCP First Name');
-          document.getElementById("hcpFirst").focus();
-          return false;
-        }
-        if(field1 == ""){
-          alert('Please Fill Your HCP Last Name');
-          document.getElementById("hcpLast").focus();
-          return false;
-        }
+        //if(field1 == ""){
+        //   alert('Please Fill Your HCP First Name');
+        //   document.getElementById("hcpFirst").focus();
+        //   return false;
+        // }
+        // if(field1 == ""){
+        //   alert('Please Fill Your HCP Last Name');
+        //   document.getElementById("hcpLast").focus();
+        //   return false;
+        // }
 
-        if(field11 == "" || field11.length > 10 || field11.length < 10){
-          alert('Please Fill Your Phone Number Only 10 Digits No Dashes');
-          document.getElementById("phone").focus();
-          return false;
-        }
-        if(field12 == "" || field11.length > 10 || field11.length < 10){
-          alert('Please Fill Your Fax Number');
-          document.getElementById("fax").focus();
-          return false;
-        }
-        if(field13 == ""){
-          alert('Please Fill Your Email');
-          document.getElementById("email").focus();
-          return false;
-        }
+        // if(field11 == "" || field11.length > 10 || field11.length < 10){
+        //   alert('Please Fill Your Phone Number Only 10 Digits No Dashes');
+        //   document.getElementById("phone").focus();
+        //   return false;
+        // }
+        // if(field12 == "" || field11.length > 10 || field11.length < 10){
+        //   alert('Please Fill Your Fax Number');
+        //   document.getElementById("fax").focus();
+        //   return false;
+        // }
+        // if(field13 == ""){
+        //   alert('Please Fill Your Email');
+        //   document.getElementById("email").focus();
+        //   return false;
+        // }
   
                 $.ajax({
                     url: "https://docs.google.com/forms/d/e/1FAIpQLSfzIVkiInZmF3Ch9lqtnuwD-tJ8A115iIRb5n7PE232o1jpBA/formResponse?",
