@@ -42,7 +42,7 @@
                 <h2 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">
                     CLEVIPREX Textbook Program Order Form</h2>
                 <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">
-                    Please enter all information in the Order Form</h3>
+                    Please enter all HCP information in the Order Form</h3>
             </div>
         </div>
     </div>
@@ -52,37 +52,37 @@
 
 <form id="form" target="_self" onsubmit="return postToGoogle();" action="" autocomplete="off"> 
   <div class="form-group row">
-    <label for="orderNumber" class="col-3 col-form-label">Order Number</label> 
+    <label for="orderNumber" class="col-3 col-form-label">Order Number<span style="color:red;"> *</span></label> 
     <div class="col-9">
       <input id="orderNumber" name="entry.310200994" placeholder="ex. 16987" type="text" required="required" class="form-control">
     </div>
   </div>
   <div class="form-group row">
-    <label class="col-3 col-form-label" for="hcpFirst">HCP First</label> 
+    <label class="col-3 col-form-label" for="hcpFirst">HCP First<span style="color:red;"> *</span></label> 
     <div class="col-9">
       <input id="hcpFirst" name="entry.407111904" type="text" required="required" class="form-control">
     </div>
   </div>
   <div class="form-group row">
-    <label for="hcpLast" class="col-3 col-form-label">HCP Last</label> 
+    <label for="hcpLast" class="col-3 col-form-label">HCP Last<span style="color:red;"> *</span></label> 
     <div class="col-9">
       <input id="hcpLast" name="entry.790607589" type="text" required="required" class="form-control">
     </div>
   </div>
   <div class="form-group row">
-    <label for="degree" class="col-3 col-form-label">Degree</label> 
+    <label for="degree" class="col-3 col-form-label">Degree<span style="color:red;"> *</span></label> 
     <div class="col-9">
       <input id="degree" name="entry.18222752" type="text" required="required" class="form-control">
     </div>
   </div>
   <div class="form-group row">
-    <label for="institution" class="col-3 col-form-label">Institution</label> 
+    <label for="institution" class="col-3 col-form-label">Institution<span style="color:red;"> *</span></label> 
     <div class="col-9">
       <input id="institution" name="entry.1402154559" type="text" required="required" class="form-control">
     </div>
   </div>
   <div class="form-group row">
-    <label for="certCode" class="col-3 col-form-label">Certication Code</label> 
+    <label for="certCode" class="col-3 col-form-label">Certication Code<span style="color:red;"> *</span></label> 
     <div class="col-9">
       <select id="certCode" name="entry.318290760" class="custom-select">
         <option value="RRT">RRT</option>
@@ -99,19 +99,19 @@
     </div>
   </div>
   <div class="form-group row">
-    <label class="col-3 col-form-label" for="streetAddress">Street Address</label> 
+    <label class="col-3 col-form-label" for="streetAddress">HCP Street Address<span style="color:red;"> *</span></label> 
     <div class="col-9">
       <input id="streetAddress" name="entry.1937510216" type="text" required="required" class="form-control">
     </div>
   </div>
   <div class="form-group row">
-    <label for="city" class="col-3 col-form-label">City</label> 
+    <label for="city" class="col-3 col-form-label">City<span style="color:red;"> *</span></label> 
     <div class="col-9">
       <input id="city" name="entry.1098135271" type="text" required="required" class="form-control">
     </div>
   </div>
   <div class="form-group row">
-    <label for="state" class="col-3 col-form-label">State</label> 
+    <label for="state" class="col-3 col-form-label">State<span style="color:red;"> *</span></label> 
     <div class="col-9">
       <select id="state" name="entry.725014568" required="required" class="custom-select">
   <option value="AL">AL</option>
@@ -169,13 +169,13 @@
     </div>
   </div>
   <div class="form-group row">
-    <label for="zip" class="col-3 col-form-label">Zip</label> 
+    <label for="zip" class="col-3 col-form-label">Zip<span style="color:red;"> *</span></label> 
     <div class="col-9">
       <input id="zip" name="entry.1930981283" type="text" required="required" class="form-control">
     </div>
   </div>
   <div class="form-group row">
-    <label for="phone" class="col-3 col-form-label">Phone</label> 
+    <label for="phone" class="col-3 col-form-label">Phone<span style="color:red;"> *</span></label> 
     <div class="col-9">
       <input id="phone" name="entry.1611653414" type="text" class="form-control">
     </div>
@@ -187,13 +187,13 @@
     </div>
   </div>
     <div class="form-group row">
-    <label for="email" class="col-3 col-form-label">Email</label> 
+    <label for="email" class="col-3 col-form-label">Email<span style="color:red;"> *</span></label> 
     <div class="col-9">
       <input id="email" name="entry.1920936398" type="text" class="form-control">
     </div>
   </div>
   <div class="form-group row">
-    <label for="selectTextbook" class="col-3 col-form-label">Select Textbook</label> 
+    <label for="selectTextbook" class="col-3 col-form-label">Select Textbook<span style="color:red;"> *</span></label> 
     <div class="col-9">
       <select id="selectTextbook" name="entry.401067085" required="required" class="custom-select" onChange="return setCost()">
         <option data-mail="1" value="Tarascon Pocket Pharmacopoeia - (978-1-284057560)">Tarascon Pocket Pharmacopoeia - (978-1-284057560)</option>
@@ -217,7 +217,7 @@
   </div> 
   <div class="form-group row">
     <div class="offset-3 col-9" data-toggle="modal" data-target="#exampleModal">
-      <button id="send" name="submit" type="submit" class="btn btn-primary">Submit</button>
+      <button id="send" name="submit" type="submit" class="btn btn-primary" disabled>Submit</button>
     </div>
   </div>
 </form>
@@ -256,6 +256,18 @@
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
+
+  <script type="text/javascript" language="javascript">
+
+    let txt = document.querySelectorAll('[type="text"]');
+    for (let i = 0; i < txt.length; i++) {
+        txt[i].oninput = () => {
+            if (!(txt[0].value == '') && !(txt[1].value == '') && !(txt[2].value == '') && !(txt[3].value == '') && !(txt[4].value == '') && !(txt[5].value == '') && !(txt[6].value == '') && !(txt[7].value == '') && !(txt[8].value == '') && !(txt[10].value == '')) {
+                send.removeAttribute('disabled')
+            }
+        }
+    }
+</script>
   <script>
     function setCost(){
     // find the dropdown
