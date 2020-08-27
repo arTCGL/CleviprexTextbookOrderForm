@@ -69,12 +69,12 @@
       <input id="hcpLast" name="entry.790607589" type="text" required="required" class="form-control">
     </div>
   </div>
-  <div class="form-group row">
+  <!--<div class="form-group row">
     <label for="degree" class="col-3 col-form-label">Degree<span style="color:red;"> *</span></label> 
     <div class="col-9">
       <input id="degree" name="entry.18222752" type="text" required="required" class="form-control">
     </div>
-  </div>
+  </div>-->
   <div class="form-group row">
     <label for="institution" class="col-3 col-form-label">Institution<span style="color:red;"> *</span></label> 
     <div class="col-9">
@@ -180,14 +180,14 @@
       <input id="phone" name="entry.1611653414" type="text" class="form-control">
     </div>
   </div>
-  <div class="form-group row">
+  <!--<div class="form-group row">
     <label for="fax" class="col-3 col-form-label">Fax</label> 
     <div class="col-9">
       <input id="fax" name="entry.1194449829" type="text" class="form-control">
     </div>
-  </div>
+  </div>-->
     <div class="form-group row">
-    <label for="email" class="col-3 col-form-label">Email<span style="color:red;"> *</span></label> 
+    <label for="email" class="col-3 col-form-label">HCP Email<span style="color:red;"> *</span></label> 
     <div class="col-9">
       <input id="email" name="entry.1920936398" type="text" class="form-control">
     </div>
@@ -262,7 +262,7 @@
     let txt = document.querySelectorAll('[type="text"]');
     for (let i = 0; i < txt.length; i++) {
         txt[i].oninput = () => {
-            if (!(txt[0].value == '') && !(txt[1].value == '') && !(txt[2].value == '') && !(txt[3].value == '') && !(txt[4].value == '') && !(txt[5].value == '') && !(txt[6].value == '') && !(txt[7].value == '') && !(txt[8].value == '') && !(txt[10].value == '')) {
+            if (!(txt[0].value == '') && !(txt[1].value == '') && !(txt[2].value == '') && !(txt[3].value == '') && !(txt[4].value == '') && !(txt[5].value == '') && !(txt[6].value == '') && !(txt[7].value == '') && !(txt[8].value == '') && !(txt[9].value == '')) {
                 send.removeAttribute('disabled')
             }
         }
